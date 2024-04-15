@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './font.css';
+
+::-webkit-input-placeholder {
+    color: grey; /* Chrome, Safari, Edge, Opera */
+  }
+  :-moz-placeholder {
+    color: grey; /* Firefox 18- */
+  }
+  ::-moz-placeholder {
+    color: grey; /* Firefox 19+ */
+  }
+  :-ms-input-placeholder {
+    color: grey; /* Edge */
+  }
